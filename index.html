@@ -539,7 +539,7 @@
     if(!jstand){
         cartM = 'Trial version\nItem ABC x 2\nItem XYZ x 3';
     }
-    var wlink = "https://api.whatsapp.com/send?phone=7739136208&text=New order "+(document.getElementById('wopic').checked ? '🏬' : '🛵')+" (Nishu general store)%0A%0A" + urlencode(cartM) + "%0APayable: INR " + amtPayable + "%0A";
+    var wlink = "https://api.whatsapp.com/send?phone=917739136208&text=New order "+(document.getElementById('wopic').checked ? '🏬' : '🛵')+" (Nishu general store)%0A%0A" + urlencode(cartM) + "%0APayable: INR " + amtPayable + "%0A";
     wlink += "%0ADeliver to%0A";
     wlink += toTitle(waddr).replace(/\x26/,"%26").replace(/\x23/,"%23");
     wlink += "%0A**"+wonote.replace(/\x26/,"%26").replace(/\x23/,"%23")+"**";
